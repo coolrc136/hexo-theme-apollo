@@ -45,3 +45,5 @@ mixin post(item)
             +postInfo(item)
             .post-content
                 != item.content
+            .post-info
+                != full_date(item.updated, 'll')
