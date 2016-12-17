@@ -185,6 +185,7 @@ code {
 p code {
 	margin: 0 2px;
 	padding: 3px 5px;
+    overflow-wrap: break-word;
 }
 iframe,video {
 	max-width:100%;
