@@ -1,8 +1,8 @@
 menu:
     Blog: /
     Archive: /archives/
-    Weibo: http://weibo.com/sunchongsheng
-    GitHub: https://github.com/pinggod
+    Links: /friends/
+    GitHub: https://github.com/coolrc136
     Rss: /atom.xml
 
 favicon: /favicon.png
@@ -10,12 +10,17 @@ logo: /favicon.png
 
 # Comment
 # e.g disqus: seansun
-disqus:
-duoshuo:
+#disqus:
+#duoshuo: coolrc
+gitment: 
+    repo: blog_comment
+    id: coolrc136
+    clientid: 54a5c97e9smfbhkrn
+    clientsecret: 475f010e505sbvhsdbkfsbrno
 
 # Analytics
 # google-analytics:
-ga: UA-65933410-1
+ga: UA-71skjfks
 
 # Copyright Infomation
 startyear: 2015

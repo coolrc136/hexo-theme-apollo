@@ -25,3 +25,20 @@ if theme.disqus
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
     script(id='dsq-count-scr' src='//#{theme.disqus}.disqus.com/count.js' async)
+
+
+if theme.gitment
+    #render
+    link(rel="stylesheet", href=url_for("https://imsun.github.io/gitment/style/default.css"))
+    script(src='https://imsun.github.io/gitment/dist/gitment.browser.js')
+    script.
+        var gitment = new Gitment({
+        //id: '页面 ID', // 可选。
+        owner: '#{theme.gitment.id}',
+        repo: '#{theme.gitment.repo}',
+        oauth: {
+            client_id: '#{theme.gitment.clientid}',
+            client_secret: '#{theme.gitment.clientsecret}',
+        },
+        })
+        gitment.render('render')

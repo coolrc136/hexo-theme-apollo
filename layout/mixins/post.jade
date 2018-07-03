@@ -45,3 +45,9 @@ mixin post(item)
             +postInfo(item)
             .post-content
                 != item.content
+            .post-info
+                - var updatedtime = full_date(item.updated, 'll')
+                - updatedtime = "last updated: " + updatedtime
+                != updatedtime
+            a.post-info(href= url_for(item.copyrightlink))
+                != item.copyright
