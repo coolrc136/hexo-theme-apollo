@@ -18,6 +18,12 @@ gitment:
     clientid: 54a5c97e9smfbhkrn
     clientsecret: 475f010e505sbvhsdbkfsbrno
 
+gitalk: 
+    repo: blog_comment
+    id: coolrc136
+    clientid: 54a5c97e9smfbhkrn
+    clientsecret: 475f010e505sbvhsdbkfsbrno
+
 # Analytics
 # google-analytics:
 ga: UA-71skjfks
